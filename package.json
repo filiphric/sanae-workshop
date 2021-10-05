@@ -1,0 +1,16 @@
+{
+  "name": "workshop-sanae",
+  "version": "1.0.0",
+  "description": "repository for sanae workshop",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd trelloapp && npm install",
+    "start": "cd trelloapp && npm start"
+  },
+  "keywords": [],
+  "author": "Filip Hric (https://filiphric.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.4.1"
+  }
+}
