@@ -1,16 +1,16 @@
 /// <reference types="cypress" />
 
-// ⚠️ jednotlivé testy si môžeš vyfiltrovať tak, že prepíšeš "it" na "it.only"
-// úloha #1: označ štvorec pomocou classy, kruh pomocou idčka, trojuholník pomocou atribútu a nadpis pomocou textu
+// ⚠️ you can change "it" to "it.only" to run a single test
+// task #1: označ štvorec pomocou classy, kruh pomocou idčka, trojuholník pomocou atribútu a nadpis pomocou textu
 it('class, id, attr', { baseUrl: "" }, () => {
 
   cy
-    .visit('./cypress/integration/01_zaklady/02_oznacovanie_elementov/pages/shapes.html');
+    .visit('./cypress/integration/01_selecting_elements/pages/shapes.html');
 
 })
 
 /*
-  úloha #2: na stránke sa nachádza dúha. pozri do dokumentácie docs.cypress.io a označ
+  task #2: na stránke sa nachádza dúha. pozri do dokumentácie docs.cypress.io a označ
   elementy na stránke podľa inštrukcii. Tvojou úlohou bude doplniť správny príkaz
   za príkaz .get(), teda napr.:
 
@@ -23,7 +23,7 @@ it('class, id, attr', { baseUrl: "" }, () => {
 it('cypress príkazy na označovanie elementov', { baseUrl: "" }, () => {
 
   cy
-    .visit('./cypress/integration/01_zaklady/02_oznacovanie_elementov/pages/rainbow.html');
+    .visit('./cypress/integration/01_selecting_elements/pages/rainbow.html');
 
   // #1 označ prvý element pomocou príkazu .first()
   cy
@@ -65,7 +65,7 @@ it('cypress príkazy na označovanie elementov', { baseUrl: "" }, () => {
 });
 
 /*
-úloha #3: označ pomocou classy jediným .get() príkazom:
+task #3: označ pomocou classy jediným .get() príkazom:
   1. iba prvý a tretí kruh
   2. iba druhý a tretí kruh
   3. iba druhý kruh
@@ -73,6 +73,6 @@ it('cypress príkazy na označovanie elementov', { baseUrl: "" }, () => {
 it('nested classes', { baseUrl: "" }, () => {
 
   cy
-    .visit('./cypress/integration/01_zaklady/02_oznacovanie_elementov/pages/squares.html');
+    .visit('./cypress/integration/01_selecting_elements/pages/squares.html');
 
 })

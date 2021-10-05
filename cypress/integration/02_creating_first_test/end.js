@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-it('vytvorenie nového boardu', () => {
+it('creating a new board', () => {
 
   cy
     .visit('/');
@@ -15,7 +15,7 @@ it('vytvorenie nového boardu', () => {
 
 });
 
-it('označenie boardu hviezdičkou', () => {
+it('starring a board', () => {
 
   cy
     .visit('/');
@@ -26,7 +26,7 @@ it('označenie boardu hviezdičkou', () => {
 
 });
 
-it('zaškrtnutie karty', () => {
+it('checking a card', () => {
 
   cy
     .visit('/board/33255693826');

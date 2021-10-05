@@ -1,20 +1,20 @@
 # SANAE Cypress.io workshop
-Repozitár k workshopu pre SANAEbeer.ex
+Repository SANAEbeer.ex Workshop
 
-## O autorovi
-Volám sa Filip. Som QA lead vo firme [Slido](https://www.sli.do/) a [Cypress ambasádor](https://cypress.io/ambassadors/)
+## Author
+My name is Filip. I’m QA lead in [Slido](https://www.sli.do/) and [Cypress ambassador](https://cypress.io/ambassadors/)
 
-## Čo sa nachádza v repozitári
-Súčasťou repozitára je aplikácia a všetky učebné materiály k workshop. Väčšina kapitol kurzu začína súborom `zaciatok.js`. Konečný stav kódu je uložený v súbore `zaver.js`. Väčšina kapitol taktiež obsahuje súbor `zoznamsa.js`, v ktorom sú praktické cvičenia, ktoré riešime na workshope.
+## What’s in the repository
+Inside this repository, you can find the app that we will be testing as well as learning materials for the workshop Most of the chapters start with `start.js` and the final state of demo is in `end.js` file. Most of the chapters also have `challenge.js` file where you can find practical challenges for you.
 
-## Trello aplikácia
-Aplikácia je napodobeninou aplikácie [Trello](https://trello.com). V aplikácii možno vytvárať boardy a zoznamy úloh. Medzi boardami je možné úlohy presúvať meniť ich stav, nastaviť im deadline či dokonca uploadnúť obrázok.
+## Trello app
+Application is a clone of a famous app [Trello](https://trello.com). You can create boards, and lists of tasks in which a file can be uploaded, a deadlen set etc.
 
-### Inštalácia
-Inštalácia je jednoduchá, stačí zadať príkaz
+### Installation
+Installation is super easy, just clone this repo and do the following commands
 1. `npm install`
 2. `npm start`
-3. A otvoriť aplikáciu v prehliadači na lokalite http://localhost:3000
+3. Then open the app on URL http://localhost:3000
 
-### Databáza
-Databázou je obyčajný json súbor, nachádzajúci sa v `trelloapp/backend/data/database.json`. Uploadované súbory sa ukladajú do foldra `trelloapp/backend/data/uploaded`.
+### Database
+Database is just a simple json file located in `trelloapp/backend/data/database.json`. Uploaded files are saved to the folder `trelloapp/backend/data/uploaded`.

@@ -7,7 +7,7 @@ beforeEach( () => {
 
 })
 
-it('vytvorenie karty', () => {
+it('creating a card', () => {
 
   cy
     .contains('Add another card')
@@ -23,7 +23,7 @@ it('vytvorenie karty', () => {
 
 })
 
-it('overenie počtu kariet', () => {
+it('checking number of cards', () => {
 
   cy
     .contains('Add another card')
@@ -39,7 +39,7 @@ it('overenie počtu kariet', () => {
 
 })
 
-it('overenie zaškrtnutia', () => {
+it('asserting checked state', () => {
 
   cy
     .get('[data-cy=card-checkbox]')
@@ -55,7 +55,7 @@ it('overenie zaškrtnutia', () => {
 
 })
 
-it('overenie názvu listu', () => {
+it('asserting list name', () => {
 
   cy
     .get('[data-cy=list-name]')

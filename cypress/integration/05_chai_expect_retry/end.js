@@ -7,24 +7,24 @@ beforeEach( () => {
 
 });
 
-it('overenie textu prvej karty', () => {
+it('checking first card name', () => {
 
   cy
     .get('[data-cy="card-title"]').then( item => {
 
-      expect(item).to.have.text('mlieko');
+      expect(item).to.have.text('milk');
 
     });
 
 });
 
-it('overenie textov všetkých kariet', () => {
+it('checking all card texts', () => {
 
   cy
     .get('[data-cy="card-title"]')
     .then( items => {
 
-      expect(items[0]).to.have.text('mlieko');
+      expect(items[0]).to.have.text('milk');
       expect(items[1]).to.have.text('chlieb');
 
     });

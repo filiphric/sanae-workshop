@@ -7,25 +7,25 @@ beforeEach( () => {
 
 });
 
-it('v zozname je mlieko', () => {
+it('milk is in the list', () => {
 
   cy
-    .contains('[data-cy=card]', 'mlieko')
+    .contains('[data-cy=card]', 'milk')
 
   cy
     .get('[data-cy=list]')
     .eq(1)
-    .contains('mlieko')
+    .contains('milk')
 
 });
 
-it('v druhom zozname je mlieko', () => {
+it('milk is in the second list', () => {
 
   cy
     .get('[data-cy=list]')
     .eq(1)
     .find('[data-cy=card]')
     .eq(1)
-    .should('contain.text', 'mlieko')
+    .should('contain.text', 'milk')
 
 });

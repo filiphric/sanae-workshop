@@ -7,25 +7,25 @@ beforeEach( () => {
 
 });
 
-it.only('overenie textu prvej karty', () => {
+it.only('checking first card name', () => {
 
   cy
     .get('[data-cy="card-title"]')
-    .should('have.text', 'chlieb')
+    .should('have.text', 'bread')
 
 });
 
-it('overenie textov všetkých kariet', () => {
+it('checking all card texts', () => {
 
   cy
     .get('[data-cy=card-title]')
     .eq(0)
-    .should('have.text', 'mlieko')
+    .should('have.text', 'milk')
 
   cy
     .get('[data-cy=card-title]')
     .eq(1)
-    .should('have.text', 'chlieb')
+    .should('have.text', 'bread')
 
 });
 
